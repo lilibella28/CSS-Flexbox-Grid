@@ -1,0 +1,99 @@
+html {
+    margin: 0;
+    
+}
+body{
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+    grid-template-rows: auto;
+    height: 100vh;
+}
+
+
+/* =======Heading element Style ===== */
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+}
+
+h3{
+    color: rgb(160, 160, 160)
+}
+
+span{
+    color:black;
+    font-weight: 50%
+}
+
+/* Profile Image SETUP */
+img.imageProfile{
+  
+    width: 450px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgb(90, 189, 123);
+    position: relative;
+    top: 100px;
+    left: 200px
+   
+  
+}
+
+/* underneat image, phone and message */
+
+section > div > img{
+    height: 200px;
+    position: relative;
+    top: 50px
+}
+
+
+
+/* Start Style here */
+.checked{
+    
+    color: orange
+}
+
+/* Aside Element  */
+aside {
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    flex-direction: column;
+    padding-left: 100px;
+    
+    
+}
+/* P element sttyle inside */
+aside > p{
+  color: rgb(160, 160, 160);
+  height: auto;
+  line-height: 2;
+  border-left: 5px solid rgb(90, 189, 123);
+  padding: 20px;
+  
+
+}
+
+
+ div{
+    width: 50%;
+   
+ }
+ 
+div:first-child{
+    background-color: rgb(101, 208, 137);
+}
+div:last-child{
+    background-color: rgb(90, 189, 123);
+}
+
+
+section{
+
+    display: flex;
+    height: 300px;
+    position: relative;
+    top: 200px;
+}
